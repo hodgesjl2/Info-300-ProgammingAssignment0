@@ -12,7 +12,6 @@ for (var i = 0; i < 3; i++) {
     var overtimePay = 0;
     var totalPay = 0;
 
-    // validation (same style as your example)
     if (wage <= 0) {
         console.log("Invalid wage");
         wage = 1;
@@ -23,7 +22,6 @@ for (var i = 0; i < 3; i++) {
         hours = 0;
     }
 
-    // conditional logic (same style as grade example)
     if (hours <= 40) {
         regularPay = hours * wage;
     } else {
@@ -44,7 +42,6 @@ for (var i = 0; i < 3; i++) {
     employees.push(employee);
 }
 
-// output (same style as example)
 console.log("\nPayroll Report");
 
 var highest = employees[0];
