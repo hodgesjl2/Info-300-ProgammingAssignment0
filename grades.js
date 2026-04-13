@@ -1,6 +1,5 @@
 var readLineSync = require('readline-sync');
 
-// get current average
 var currentAverage = readLineSync.questionFloat("Enter your current average: ");
 
 if (currentAverage < 0 || currentAverage > 100) {
@@ -8,7 +7,6 @@ if (currentAverage < 0 || currentAverage > 100) {
     currentAverage = 0;
 }
 
-// loop for 3 scenarios
 for (var i = 0; i < 3; i++) {
 
     var finalExam = readLineSync.questionFloat("Enter a final exam score: ");
